@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Portafolio de Diego</title>
-</head>
-<body>
- <header class="header main-part">
-         <h1 class="logo">
-            Diego Huaman <span class="logo--thin">| Portafolio </span>
-         </h1>
-         <nav class="header-nav">
-            <ul class="header-nav__list">
-               <li>
-                  <a href="#experience">Experiencia</a>
-               </li>
-               <li><a href="#work">Proyectos</a></li>
-               <li><a href="#about-me">Sobre Mi</a></li>
-               <li>
-                  <a href="#form" class="btn">Di hola!</a>
-               </li>
-            </ul>
-         </nav>
-      </header>
-      <a href="#hero" class="up-arrow">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Diego</title>
+  </head>
+  <body>
+    <header class="header main-part">
+      <h1 class="logo">
+        Diego Huaman <span class="logo--thin">| Portafolio </span>
+      </h1>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li>
+            <a href="#experience">Experiencia</a>
+          </li>
+          <li><a href="#work">Proyectos</a></li>
+          <li><a href="#about-me">Sobre Mi</a></li>
+          <li>
+            <a href="#form" class="btn">Di hola!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <a href="#hero" class="up-arrow">
       <img src="./images/go_up.svg" alt="flecha hacia arriba" class="img" />
-      </a>
-      <main>
-       <section class="hero" id="hero">
-            <h2 class="hero__text">Hola! Soy Diego Huaman,</h2>
-            <p class="hero__text--cta">Puedo crear aplicaciones web fascinantes.</p>
-            <a class="hero__link" href="#work"
-               >Mi ultimo trabajo <span class="hero__link-arrow">▼</span></a
-               >
-         </section>
-      </main>
-</body>
+    </a>
+    <main>
+      <section class="hero" id="hero">
+        <h2 class="hero__text">Hola! Soy Diego Huaman,</h2>
+        <p class="hero__text--cta">Puedo crear aplicaciones web fascinantes.</p>
+        <a class="hero__link" href="#work"
+          >Mi ultimo trabajo <span class="hero__link-arrow">▼</span></a
+        >
+      </section>
+      <section class="section work" id="work">
+        <figure>
+          <img class="work__img" src="./images/fondo-card.jpg" alt="" />
+        </figure>
+        <article class="work__article">
+          <div class="work__content">
+            <h4 class="work__subtitle">Pagina Web</h4>
+            <h3 class="work__title">Tarjeta personal web <span>→</span></h3>
+            <p class="work__description">
+              Realizado utilizando conceptos básicos de HTML, CSS, con ayuda del
+              framework Tailwind.
+            </p>
+            <a
+              class="work__cta"
+              href="https://darsico.github.io/tarjeta-personal-web/"
+              target="_blank"
+              >Ver proyecto</a
+            >
+          </div>
+          <img
+            class="work__second-img"
+            src="./images/website-card.png"
+            alt=""
+          />
+        </article>
+      </section>
+      <section class="section">
+        <figure>
+          <img class="work__img" src="./images/air.png" alt="" />
+        </figure>
+        <article class="work__article">
+          <div class="work__content">
+            <h4 class="work__subtitle">React</h4>
+            <h3 class="work__title">Airbnb Experiences Clone <span>→</span></h3>
+            <p class="work__description">
+              Aprendizaje del hook useState ademas de metodos como .map() y
+              .filter()
+            </p>
+            <a class="work__cta" href="#">Ver proyecto</a>
+          </div>
+          <img
+            class="work__second-img"
+            src="./images/airbnb_experiences_all.png"
+            alt=""
+          />
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
