@@ -82,6 +82,118 @@
           />
         </article>
       </section>
+      <section class="section about-me">
+        <figure class="about__fig">
+          <img
+            class="about__img"
+            src="./images/diego.png"
+            alt="foto de Diego Huaman"
+          />
+        </figure>
+        <article class="about__article">
+          <h2 class="about__title">Sobre mi</h2>
+          <h3 class="about__name">Diego Huaman</h3>
+          <div class="about__roles-list">
+            <h4 class="about__roles">🤖Desarrollador🤖</h4>
+            <h4 class="about__roles">💻Diseñador💻</h4>
+            <h4 class="about__roles">🌌Frontend🌌</h4>
+          </div>
+          <p class="about__p">
+            Soy un desarrollador front-end en formación con experiencia en
+            diseño gráfico y una pasión por crear productos intuitivos y
+            agradables que sean a la vez funcionales y utilizables. Creo que el
+            Internet tiene el potencial de cambiar el mundo para que sea un
+            lugar mejor.
+          </p>
+        </article>
+      </section>
+       <section class="section" id="experience">
+            <table>
+               <caption>
+                  Experiencia
+               </caption>
+               <thead>
+                  <tr>
+                     <th>Proyecto</th>
+                     <th>Aprendizaje</th>
+                     <th>Periodo</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>
+                        Construccion de sitio web personal \ HTML, CSS
+                     </td>
+                     <td>
+                        Aplicación de conceptos basicos de html y css para desarrollo
+                        de portafolio.
+                     </td>
+                     <td>
+                        Enero 2022
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Meme Generator</td>
+                     <td>
+                        Uso de useState y useEffect, ademas de comunicacion con API de memes
+                        para obtener data.
+                     </td>
+                     <td>Diciembre 2021</td>
+                  </tr>
+                  <tr>
+                     <td>Airbnb Experiences Clone</td>
+                     <td>
+                        Aprendizaje del hook useState ademas de metodos como .map() y .filter().
+                     </td>
+                     <td>Diciembre 2021</td>
+                  </tr>
+               </tbody>
+            </table>
+         </section>
+          <section class="connect">
+            <h2 class="connect__text">Conectemos!</h2>
+            <p class="connect__text--thin">Me gustaría escuchar de ti</p>
+            <img
+               src="./images/down_arrow.svg"
+               class="connect__arrow"
+               alt="Flecha hacia abajo"
+               />
+         </section>
+         <section class="section contact">
+            <figure class="contact__img">
+               <img src="./images/get_in_touch.png" alt="" class="img" />
+            </figure>
+            <form action="/" class="form" id="form">
+               <h3 class="form__title">
+                  Póngase en contacto para nuevas oportunidades o solo para saludar :)
+               </h3>
+               <div class="form__input-list">
+                  <input
+                     class="form__input"
+                     placeholder="Nombre"
+                     type="text"
+                     id="nombre"
+                     required
+                     />
+                  <input
+                     class="form__input"
+                     placeholder="Email"
+                     type="email"
+                     name="email"
+                     id="email"
+                     required
+                     />
+                  <input
+                     class="form__input form__input--message"
+                     placeholder="Escribe el mensaje aquí."
+                     type="text"
+                     id="message"
+                     required
+                     />
+               </div>
+               <button class="btn" type="submit">Enviar</button>
+            </form>
+         </section>
     </main>
   </body>
 </html>
