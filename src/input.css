@@ -1,0 +1,198 @@
+/* tailwindcss utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#ececec] -tracking-wide;
+  }
+
+  h2 {
+    @apply text-base font-medium md:text-3xl;
+  }
+}
+
+@layer components {
+  .header {
+    @apply text-sm md:text-base flex py-5;
+  }
+  .btn {
+    @apply w-fit py-1 px-4 rounded-full border border-neutral-900 hover:bg-black hover:text-[#ececec];
+  }
+  .section {
+    @apply md:my-20 my-8;
+  }
+  .main-part {
+    @apply max-w-[90%] md:max-w-screen-md mx-auto;
+  }
+  img {
+    @apply w-full;
+  }
+  .icon {
+    @apply w-[25px] transition-transform ease-linear duration-[0.2s] hover:scale-110;
+  }
+  .logo {
+    @apply font-bold;
+  }
+  .logo--thin {
+    @apply font-normal;
+  }
+  .header-nav {
+    @apply ml-auto hidden md:block;
+  }
+  .header-nav__list {
+    @apply flex space-x-4 flex-wrap items-center md:ml-auto font-semibold;
+  }
+  .up-arrow {
+    @apply fixed right-2 w-[30px] bottom-2;
+  }
+  .hero {
+    @apply h-[50vh] md:h-[70vh] flex flex-col relative;
+  }
+  .hero__text--cta {
+    @apply text-3xl mt-3 sm:text-4xl md:text-6xl font-semibold leading-7 md:leading-[0.9] md:w-10/12 w-3/4 -tracking-wider;
+  }
+  .hero__text {
+    @apply md:text-2xl text-xl mt-[10%];
+  }
+  .hero__link {
+    @apply absolute right-0 bottom-5 text-sm;
+  }
+  .hero__link-arrow {
+    @apply text-[10px];
+  }
+  .work {
+    @apply w-full;
+  }
+  .work__img {
+    @apply w-full h-60 object-cover ;
+  }
+  .work__article {
+    @apply grid grid-cols-3 gap-4;
+  }
+  .work__subtitle {
+    @apply mt-2 text-base;
+  }
+  .work__title {
+    @apply text-3xl md:text-5xl font-medium -tracking-wider;
+  }
+  .work__description {
+    @apply mt-2 mb-6 text-xl leading-5 md:text-3xl -tracking-wider max-w-[80%] md:max-w-lg;
+  }
+  .work__cta {
+    @apply underline hover:font-medium;
+  }
+  .work__content {
+    @apply col-span-2;
+  }
+
+  .work__second-img {
+    @apply hidden md:inline -mt-40 w-36 justify-self-center;
+  }
+
+  .about-me {
+    @apply py-10  flex flex-col md:flex-row;
+  }
+
+  .contact {
+    @apply grid grid-cols-1 md:grid-cols-2;
+  }
+  .contact__img {
+    @apply flex justify-center items-center p-5 flex-col;
+  }
+  .connect {
+    @apply h-fit flex flex-col justify-center items-center md:space-y-4  space-y-2;
+  }
+  .connect__text {
+    @apply md:text-5xl text-3xl font-bold -tracking-wider;
+  }
+  .connect__text--thin {
+    @apply md:text-5xl text-3xl font-light -tracking-wider text-center;
+  }
+  .connect__arrow {
+    @apply md:w-8 w-5;
+  }
+  .form {
+    @apply order-first
+            md:order-2
+            flex flex-col
+            p-10
+            space-y-10
+            justify-center
+            border border-gray-300;
+  }
+  .form__title {
+    @apply text-black font-light text-2xl w-[90%];
+  }
+  .form__input-list {
+    @apply flex flex-col space-y-4;
+  }
+  .form__input {
+    @apply border-b border-solid border-[#424242] bg-inherit pb-1 w-full;
+  }
+  .form__input--message {
+    @apply h-[60px];
+  }
+
+  .footer {
+    @apply bg-black text-white p-10 flex flex-col space-y-10 w-full;
+  }
+  .footer-nav {
+    @apply w-[90%] md:max-w-screen-md mx-auto;
+  }
+  .footer-list {
+    @apply flex flex-col
+    md:flex-row
+    justify-center
+    items-center
+    md:items-start
+    space-y-4
+    md:space-y-0;
+  }
+  .footer-list__item {
+    @apply flex flex-col items-center md:items-start;
+  }
+  .footer-list__item--center {
+    @apply md:ml-5;
+  }
+  .footer-list__title {
+    @apply text-[#C4C4C4] text-xs;
+  }
+  .footer__list-icons {
+    @apply flex flex-row space-x-2;
+  }
+  .signature {
+    @apply text-white flex justify-center items-center text-xs font-thin;
+  }
+  .signature__icon {
+    @apply px-1 w-[30px];
+  }
+  .signature__name {
+    @apply font-medium ml-1;
+  }
+.about__p {
+@apply mt-5 text-center md:text-left
+}
+.about__fig {
+  @apply flex flex-col items-center
+}
+.about__img {
+@apply object-cover md:w-40 w-28  rounded-full   border-2 border-[#DCDCDC]
+}
+.about__article {
+@apply md:w-[70%]   leading-tight md:ml-auto  flex flex-col items-center md:items-start
+}
+.about__title {
+  @apply text-xl font-light md:block hidden
+}
+.about__name {
+  @apply md:text-4xl text-2xl font-medium
+}
+.about__roles {
+  @apply text-sm
+}
+.about__roles-list {
+ @apply mt-1 flex space-x-2 md:flex-row flex-col justify-center 
+}
+}
