@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Diego</title>
+    <meta name="title" content="Portafolio de Diego" />
+    <meta name="description" content="Portafolio donde se muestra los trabajos principales de Diego Huaman" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Portafolio de Diego" />
+    <meta property="og:description" content="Portafolio donde se muestra los trabajos principales de Diego Huaman" />
+    <meta property="og:image" content="https://darsico.github.io/portafolio_dh/images/fondo-card.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Portafolio de Diego" />
+    <meta
+      property="twitter:description"
+      content="Portafolio donde se muestra los trabajos principales de Diego Huaman"
+    />
+    <meta property="twitter:image" content="https://darsico.github.io/portafolio_dh/images/fondo-card.jpg" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Portafolio de Diego</title>
+  </head>
+  <body>
+    <header class="header main-part">
+      <h1 class="logo">Diego Huaman <span class="logo--thin">| Portafolio </span></h1>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li>
+            <a href="#experience">Experiencia</a>
+          </li>
+          <li><a href="#work">Proyectos</a></li>
+          <li><a href="#about-me">Sobre Mi</a></li>
+          <li>
+            <a href="#form" class="btn">Di hola!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <a href="#hero" class="up-arrow">
+      <img src="./images/go_up.svg" alt="flecha hacia arriba" class="img" />
+    </a>
+    <main class="main-part">
+      <section class="hero" id="hero">
+        <h2 class="hero__text" id="hero-subtitle"></h2>
+        <p class="hero__text--cta" id="hero-title"></p>
+        <a class="hero__link" href="#work">Mi ultimo trabajo <span class="hero__link-arrow">▼</span></a>
+      </section>
+      <section class="section work" id="work">
+        <figure>
+          <img class="work__img" src="./images/fondo-card.jpg" alt="" />
+        </figure>
+        <article class="work__article">
+          <div class="work__content">
+            <h4 class="work__subtitle">Pagina Web</h4>
+            <h3 class="work__title">Tarjeta personal web <span>→</span></h3>
+            <p class="work__description">
+              Realizado utilizando conceptos básicos de HTML, CSS, con ayuda del framework Tailwind.
+            </p>
+            <a class="work__cta" href="https://darsico.github.io/tarjeta-personal-web/" target="_blank">Ver proyecto</a>
+          </div>
+          <img class="work__second-img" src="./images/website-card.png" alt="" />
+        </article>
+      </section>
+      <section class="section">
+        <figure>
+          <img class="work__img" src="./images/air.png" alt="" />
+        </figure>
+        <article class="work__article">
+          <div class="work__content">
+            <h4 class="work__subtitle">React</h4>
+            <h3 class="work__title">Airbnb Experiences Clone <span>→</span></h3>
+            <p class="work__description">Aprendizaje del hook useState ademas de metodos como .map() y .filter()</p>
+            <a class="work__cta" href="#">Ver proyecto</a>
+          </div>
+          <img class="work__second-img" src="./images/airbnb_experiences_all.png" alt="" />
+        </article>
+      </section>
+      <section class="section about-me">
+        <figure class="about__fig">
+          <img class="about__img" src="./images/diego.png" alt="foto de Diego Huaman" />
+        </figure>
+        <article class="about__article">
+          <h2 class="about__title">Sobre mi</h2>
+          <h3 class="about__name">Diego Huaman</h3>
+          <div class="about__roles-list">
+            <h4 class="about__roles">🤖Desarrollador🤖</h4>
+            <h4 class="about__roles">💻Diseñador💻</h4>
+            <h4 class="about__roles">🌌Frontend🌌</h4>
+          </div>
+          <p class="about__p">
+            Soy un desarrollador front-end en formación con experiencia en diseño gráfico y una pasión por crear
+            productos intuitivos y agradables que sean a la vez funcionales y utilizables. Creo que el Internet tiene el
+            potencial de cambiar el mundo para que sea un lugar mejor.
+          </p>
+        </article>
+      </section>
+      <section class="section" id="experience">
+        <table>
+          <caption>
+            Experiencia
+          </caption>
+          <thead>
+            <tr>
+              <th>Proyecto</th>
+              <th>Aprendizaje</th>
+              <th>Periodo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Construccion de sitio web personal \ HTML, CSS</td>
+              <td>Aplicación de conceptos basicos de html y css para desarrollo de portafolio.</td>
+              <td>Enero 2022</td>
+            </tr>
+            <tr>
+              <td>Meme Generator</td>
+              <td>Uso de useState y useEffect, ademas de comunicacion con API de memes para obtener data.</td>
+              <td>Diciembre 2021</td>
+            </tr>
+            <tr>
+              <td>Airbnb Experiences Clone</td>
+              <td>Aprendizaje del hook useState ademas de metodos como .map() y .filter().</td>
+              <td>Diciembre 2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="connect">
+        <h2 class="connect__text">Conectemos!</h2>
+        <p class="connect__text--thin">Me gustaría escuchar de ti</p>
+        <img src="./images/down_arrow.svg" class="connect__arrow" alt="Flecha hacia abajo" />
+      </section>
+      <section class="section contact">
+        <figure class="contact__img">
+          <img src="./images/get_in_touch.png" alt="" class="img" />
+        </figure>
+        <form action="/" class="form" id="form">
+          <h3 class="form__title">Póngase en contacto para nuevas oportunidades o solo para saludar :)</h3>
+          <div class="form__input-list">
+            <input class="form__input" placeholder="Nombre" type="text" id="nombre" required />
+            <input class="form__input" placeholder="Email" type="email" name="email" id="email" required />
+            <input
+              class="form__input form__input--message"
+              placeholder="Escribe el mensaje aquí."
+              type="text"
+              id="message"
+              required
+            />
+          </div>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <h5 class="footer-list__title">Escríbeme</h5>
+            <a href="">diegojairhl@gmail.com</a>
+          </li>
+          <li class="footer-list__item footer-list__item--center">
+            <h5 class="footer-list__title">Sígueme</h5>
+            <ul class="footer__list-icons">
+              <li>
+                <a href=""><img class="icon" src="./images/github.png" alt="Github de Diego" /></a>
+              </li>
+              <li>
+                <a href=""><img class="icon" src="./images/whatsapp.png" alt="Whats App de Diego" /></a>
+              </li>
+              <li>
+                <a href=""><img class="icon" src="./images/linkedin.png" alt="LinkedIn de Diego" /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="md:ml-auto footer-list__item">
+            <h5 class="footer-list__title">Checa esto</h5>
+            <ul class="footer-list__item">
+              <li><a href="#work">Proyectos</a></li>
+              <li><a href="">Sobre mi</a></li>
+              <li><a href="">Mi CV</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="signature">
+        Hecho con<img class="signature__icon heart" src="./images/heart.svg" alt="" />por
+        <span class="signature__name"> Diego Huaman</span>
+      </h3>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
