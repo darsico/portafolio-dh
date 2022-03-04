@@ -2,7 +2,7 @@
 // Hola, soy Diego Huaman,
 // Puedo crear aplicaciones web fascinantes.
 const documentReady = () => {
-  const heroSubtitle = document.getElementByIdgit a("hero-subtitle");
+  const heroSubtitle = document.getElementById("hero-subtitle");
   const heroTitle = document.getElementById("hero-title");
 
   const latestWorkLink = document.getElementById("latest-work-link");
